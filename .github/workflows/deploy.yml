@@ -1,47 +1,40 @@
-name: docs
+name: Deploy
 
 on:
-  # trigger deployment on every push to main branch
+  # Runs on pushes targeting the default branch
   push:
-    branches: [main]
-  # trigger deployment manually
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  docs:
+  deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
-          # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2
         with:
-          version: 7.17.0
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+          version: 7
+      - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
-      - run: pnpm i
-
-      # run build script
-      - name: Build VuePress site
+          node-version: 16
+          cache: pnpm
+      - run: pnpm install
+      - name: Build
         run: pnpm run docs:build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: actions/configure-pages@v2
+      - uses: actions/upload-pages-artifact@v1
         with:
-          # deploy to gh-pages branch
-          branch: gh-pages
-          # deploy the default output dir of VuePress
-          folder: docs/.vitepress/dist
-          token: ${{ secrets.ACCESS_TOKEN }}
-        env:
-          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: docs/.vitepress/dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v1
