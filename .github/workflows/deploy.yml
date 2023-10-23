@@ -16,7 +16,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://pepephant.github.io/Glimmer-Recruit/
     steps:
       - uses: actions/checkout@v3
         with:
