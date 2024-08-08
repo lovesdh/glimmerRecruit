@@ -16,7 +16,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://pepephant.github.io/Glimmer-Recruit/
+      url: https://github.com/lovesdh/glimmerRecruit/
     steps:
       - uses: actions/checkout@v3
         with:
