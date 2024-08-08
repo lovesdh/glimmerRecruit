@@ -1,4 +1,4 @@
-![](https://img1.imgtp.com/2023/09/10/081jz2kT.PNG)
+![](https://img1.imgtp.com/2024/09/10/081jz2kT.PNG)
 
 # 机器学习方向-04：大语言模型GPT
 
@@ -12,7 +12,7 @@
 
 GPT，全称“Generative Pre-Training”，即**生成式预训练**，通过在大规模语料库上进行训练，能够学习自然语言的模式和规律，从而实现更好的语言理解，是一种基于 “**Transformer**” 架构的**自回归语言模型**，避免了使用传统的 RNN 模型进行语言序列的学习和生成，有效避免了产生的**梯度消失**的问题。随着 OpenAI 技术团队的逐步研究，GPT 逐渐朝着**由半监督到无监督**、减少**微调**、参数更多、语料库更大、更烧钱、**多模态**的方向发展，其庞大的规模也因此被称为 **LLM（大语言模型）**
 
-![image-20230819195020071](https://img1.imgtp.com/2023/09/10/M0P9TvuW.PNG)
+![image-20240819195020071](https://img1.imgtp.com/2024/09/10/M0P9TvuW.PNG)
 
 在最新出版的关于 GPT-4 模型的技术报告中，GPT-4 模型已经强大到能够应对一些人类活动中的基础考试并夺得高分
 
@@ -23,11 +23,11 @@ GPT，全称“Generative Pre-Training”，即**生成式预训练**，通过�
 
 并在多种语言的能力测试上超越了以往的众多大语言模型
 
-<img src="https://img1.imgtp.com/2023/09/10/WZVnxP2b.PNG" alt="image-20230819203350357" style="zoom:80%;" />
+<img src="https://img1.imgtp.com/2024/09/10/WZVnxP2b.PNG" alt="image-20240819203350357" style="zoom:80%;" />
 
 随着 GPT 模型在各种**下游任务**上的指标表现优异并能更好回应用户的 **Prompt**，OpenAI 团队也开放给大众使用它们的模型，开发出了比较出名的闭源 ChatGPT 和 GPT4 模型的服务平台，相信读者已经体验或者即将体验到其功能。
 
-<img src="https://img1.imgtp.com/2023/09/10/JXTTrAPn.png" alt="image-20230819203235047" style="zoom: 80%;" />
+<img src="https://img1.imgtp.com/2024/09/10/JXTTrAPn.png" alt="image-20240819203235047" style="zoom: 80%;" />
 
 如此具有魅力和热度的一个模型，接下来我们就来了解它的基本架构以及优化方式吧！
 
@@ -83,11 +83,11 @@ GPT，全称“Generative Pre-Training”，即**生成式预训练**，通过�
 
 5. 模型使用的**激活函数**是 **GeLU**，它是将假设服从正态分布 $N(0,1)$ 的输入 $x$ 乘上伯努利分布 $P(X\le x)$，即
 
-   <div align='center'><img  src="https://img1.imgtp.com/2023/09/11/yuYMJ6nK.png" style="zoom: 80%;"/></div>
+   <div align='center'><img  src="https://img1.imgtp.com/2024/09/11/yuYMJ6nK.png" style="zoom: 80%;"/></div>
 
    函数图像为
 
-   <div align='center'><img src="https://img1.imgtp.com/2023/09/10/5wAzR2K9.png" alt="image-20230819222101040" style="zoom: 50%;" /></div>
+   <div align='center'><img src="https://img1.imgtp.com/2024/09/10/5wAzR2K9.png" alt="image-20240819222101040" style="zoom: 50%;" /></div>
 
    它与普遍使用的 **ReLU** 激活函数有什么共同点和优越点？
 
@@ -174,7 +174,7 @@ data comes from our supervised policies, with some coming from our PPO policies.
 >
 >主题格式：学号-姓名-考核-机器学习-04
 >
->主题示例：2023090930001-张三-考核-机器学习-04
+>主题示例：2024090930001-张三-考核-机器学习-04
 
 >出题人QQ：1370172202
 >

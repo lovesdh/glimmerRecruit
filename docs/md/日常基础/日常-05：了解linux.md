@@ -38,7 +38,7 @@
 
 我们可以在终端模拟器上输入命令，然后终端模拟器会输出信息。
 
-![image-20230715144956167](https://pic.imgdb.cn/item/64c4a22b1ddac507ccffdd04.jpg)
+![image-20240715144956167](https://pic.imgdb.cn/item/64c4a22b1ddac507ccffdd04.jpg)
 
 ​																									（Linux下的终端）
 

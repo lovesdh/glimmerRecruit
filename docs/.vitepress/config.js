@@ -131,7 +131,7 @@ export default defineConfig({
   ],
   
   lang: 'zh-CN',
-  title: '2023招新',
+  title: '2024招新',
   build: {
     rollupOptions: {
       external: ['axios'],
@@ -244,20 +244,24 @@ export default defineConfig({
             link: '/md/前端/',
           },
           {
-            text: '前端-01 Welcome！',
-            link: '/md/前端/前端-01 Welcome！.md'
+            text: 'T1-寻找微光娘-网页html元素修改',
+            link: '/md/前端/T1-寻找微光娘-网页html元素修改.md'
           },
           {
-            text: '前端-02 第三个“剑客”',
-            link: '/md/前端/前端-02 第三个“剑客”.md'
+            text: 'T2-搜集微光娘足迹-网站在你电脑里存了什么呢',
+            link: '/md/前端/T2-搜集微光娘足迹-网站在你电脑里存了什么呢.md'
           },
           {
-            text: '前端-03 前后端通信',
-            link: '/md/前端/前端-03 前后端通信.md'
+            text: 'T3-开辟找到微光娘的道路-CSS',
+            link: '/md/前端/T3-开辟找到微光娘的道路-CSS.md'
           },
           {
             text: '前端-04 初识框架',
             link: '/md/前端/前端-04 初识框架.md'
+          },
+          {
+            text: 'T5-总算见到你了，微光娘——制作blog',
+            link: '/md/前端/T5-总算见到你了，微光娘——制作blog.md'
           },
         ]
       },
@@ -436,21 +440,25 @@ export default defineConfig({
         text: '前端',
         link: '/md/前端/',
         items: [{
-            text: '前端-01 Welcome！',
-            link: '/md/前端/前端-01 Welcome！.md'
+            text: 'T1-寻找微光娘-网页html元素修改',
+            link: '/md/前端/T1-寻找微光娘-网页html元素修改.md'
           },
           {
-            text: '前端-02 第三个“剑客”',
-            link: '/md/前端/前端-02 第三个“剑客”.md'
+            text: 'T2-搜集微光娘足迹-网站在你电脑里存了什么呢',
+            link: '/md/前端/T2-搜集微光娘足迹-网站在你电脑里存了什么呢.md'
           },
           {
-            text: '前端-03 前后端通信',
-            link: '/md/前端/前端-03 前后端通信.md'
+            text: 'T3-开辟找到微光娘的道路-CSS',
+            link: '/md/前端/T3-开辟找到微光娘的道路-CSS.md'
           },
           {
             text: '前端-04 初识框架',
             link: '/md/前端/前端-04 初识框架.md'
           },
+          {
+            text: 'T5-总算见到你了，微光娘——制作blog',
+            link: '/md/前端/T5-总算见到你了，微光娘——制作blog.md'
+          }
         ]
       }],
 
@@ -523,11 +531,13 @@ export default defineConfig({
             text: '机器学习方向-04：大语言模型GPT',
             link: '/md/机器学习/机器学习方向-04：大语言模型GPT'
           },
-
-
         ]
       }],
     },
+    //标记
+    socialLinks:[
+      { icon:'github',link:'https://www.4399.com/' },
+    ]
 
   },
 }, )

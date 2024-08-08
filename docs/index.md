@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Glimmer"
-  text: "2023-微光招新"
+  text: "2024-微光招新"
   tagline: Glimmer  Recruit
   image:
     src: /image/Glimmer.png

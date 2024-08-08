@@ -10,9 +10,9 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "vue-simple-uploader": "^0.7.6",
     "vuepress-plugin-anchor-right": "^0.0.1-beta.18"
   },
   "type": "module",
   "deploy:win": "powershell bin/autoDeploy.bat"
-
 }
