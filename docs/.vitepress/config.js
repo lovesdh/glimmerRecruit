@@ -115,6 +115,7 @@ export default defineConfig({
     }
   },
 
+  base:"/glimmerRecruit/",
   head: [
     ['link', {
       rel: 'stylesheet',
@@ -125,7 +126,7 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        href: '/image/favicon.png'
+        href: '/glimmerRecruit/image/favicon.png'
       },
     ],
   ],
