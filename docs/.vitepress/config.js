@@ -100,7 +100,6 @@ const customElements = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/glimmerRecruit/",
 
   markdown: {
     config: (md) => {
@@ -126,7 +125,7 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        href: '/glimmerRecruit/image/favicon.png'
+        href: '/image/favicon.png'
       },
     ],
   ],
