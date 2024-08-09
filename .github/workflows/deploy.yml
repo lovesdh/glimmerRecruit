@@ -40,5 +40,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         #uses: actions/deploy-pages@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           publish_dir: docs/.vitepress/dist
