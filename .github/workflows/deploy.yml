@@ -3,7 +3,7 @@ name: Deploy
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://github.com/lovesdh/glimmerRecruit/
+      url: https://lovesdh.github.io/glimmerRecruit/
     steps:
       - uses: actions/checkout@v3
         with:
@@ -40,5 +40,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         #uses: actions/deploy-pages@v1
         with:
-          github_token: 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
+          github_token:github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
