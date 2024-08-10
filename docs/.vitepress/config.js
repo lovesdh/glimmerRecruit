@@ -256,8 +256,8 @@ export default defineConfig({
             link: '/md/前端/T3-开辟找到微光娘的道路-CSS.md'
           },
           {
-            text: '前端-04 初识框架',
-            link: '/md/前端/前端-04 初识框架.md'
+            text: 'T4-通往微光娘的最后一扇门——JavaScript',
+            link: '/md/前端/T4-通往微光娘的最后一扇门——JavaScript.md'
           },
           {
             text: 'T5-总算见到你了，微光娘——制作blog',
@@ -452,8 +452,8 @@ export default defineConfig({
             link: '/md/前端/T3-开辟找到微光娘的道路-CSS.md'
           },
           {
-            text: '前端-04 初识框架',
-            link: '/md/前端/前端-04 初识框架.md'
+            text: 'T4-通往微光娘的最后一扇门——JavaScript',
+            link: '/md/前端/T4-通往微光娘的最后一扇门——JavaScript.md'
           },
           {
             text: 'T5-总算见到你了，微光娘——制作blog',
