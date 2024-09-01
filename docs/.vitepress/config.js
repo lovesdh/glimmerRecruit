@@ -182,56 +182,36 @@ export default defineConfig({
         ]
       },
       {
-        text: 'C语言',
+        text: '计算机系统',
         items: [{
-            text: 'C语言简介',
-            link: '/md/C语言/',
+            text: '计算机系统简介',
+            link: '/md/计算机系统/',
           },
           {
-            text: 'C基础',
+            text: '计算机系统基础',
             items: [{
-                text: 'C Basis-01 Hello,world!',
-                link: '/md/C语言/C Basis-01 Hello,world!.md'
+                text: 'CS-EASY-01 Hello world!',
+                link: '/md/计算机系统/CS-EASY-01 Hello world!.md'
               },
               {
-                text: 'C Basis-02 来邂逅语句吧',
-                link: '/md/C语言/C Basis-02 来邂逅语句吧.md'
+                text: 'CS-EASY-02 基础数据结构',
+                link: '/md/计算机系统/CS-EASY-02 基础数据结构.md'
               },
               {
-                text: 'C Basis-03 神秘密文',
-                link: '/md/C语言/C Basis-03 神秘密文.md'
-              },
-              {
-                text: 'C Basis-04 赢不了的游戏',
-                link: '/md/C语言/C Basis-04 赢不了的游戏.md'
+                text: 'CS-EASY-03 内存模型',
+                link: '/md/计算机系统/CS-EASY-03 内存模型.md'
               },
             ]
           },
           {
-            text: 'C项目',
+            text: '计算机系统进阶',
             items: [{
-                text: 'C Project- 00 Manual',
-                link: '/md/C语言/C Project- 00 Manual.md'
-              },
-              {
-                text: 'C Project-01  Stack',
-                link: '/md/C语言/C Project-01  Stack.md'
-              },
-              {
-                text: 'C project-02 Management and Testing',
-                link: '/md/C语言/C project-02 Management and Testing.md'
-              },
-              {
-                text: 'C project-03 The Last',
-                link: '/md/C语言/C project-03 The Last.md'
-              },
-            ]
-          },
-          {
-            text: 'C进阶',
-            items: [{
-              text: 'C 进阶-动态内存分配器',
-              link: '/md/C语言/C 进阶-动态内存分配器.md'
+              text: 'CS-MEDIUM-01 大数运算',
+              link: '/md/计算机系统/CS-MEDIUM-01 大数运算.md'
+            },
+            {
+              text: 'CS-MEDIUM-02 定点数精确运算',
+              link: '/md/计算机系统/CS-MEDIUM-02 定点数精确运算.md'
             },
           ]
           },
@@ -274,44 +254,35 @@ export default defineConfig({
           {
             text: 'JAVA',
             items: [{
-                text: 'Java-01：基础',
-                link: '/md/后端/Java01.md'
+                text: 'Java01-环境搭建',
+                link: '/md/后端/Java01-环境搭建.md'
               },
               {
-                text: 'Java-02：语言特性',
-                link: '/md/后端/Java02.md'
+                text: 'Java02-程序基本结构',
+                link: '/md/后端/Java02-程序基本结构.md'
               },
               {
-                text: 'Java-03：异常，网络',
-                link: '/md/后端/Java03.md'
+                text: 'Java03-数据类型与运算-数据类型与运算',
+                link: '/md/后端/Java03-数据类型与运算.md'
+              },
+              {
+                text: 'Java04-流程控制',
+                link: '/md/后端/Java04-流程控制.md'
+              },
+              {
+                text: 'Java05-面向对象',
+                link: '/md/后端/Java05-面向对象.md'
+              },
+              {
+                text: 'Java06-面向对象进阶',
+                link: '/md/后端/Java06-面向对象进阶.md'
+              },
+              {
+                text: 'Java07-异常处理',
+                link: '/md/后端/Java07-异常处理.md'
               },
             ]
           },
-          {
-            text: 'GO',
-            items: [{
-                text: 'GO-01：level0',
-                link: '/md/后端/Go语言基础-level0.md'
-              },
-              {
-                text: 'GO-02：level1',
-                link: '/md/后端/Go语言基础-level1.md'
-              },
-
-            ]
-          },
-          {
-            text: '后端综合',
-            items: [{
-                text: '综合项目-数据库',
-                link: '/md/后端/后端综合数据库出题.md'
-              },
-              {
-                text: '综合项目-项目实践',
-                link: '/md/后端/后端综合项目出题.md'
-              },
-            ]
-          }
         ]
       },
       {
@@ -379,59 +350,40 @@ export default defineConfig({
         ]
       }],
 
-      '/md/C语言/': [{
-        text: 'C语言',
+      '/md/计算机系统/': [{
+        text: '计算机系统',
         items: [{
-            text: 'C语言简介',
-            link: '/md/C语言/',
+            text: '计算机系统简介',
+            link: '/md/计算机系统/',
           },
           {
-            text: 'C基础',
+            text: '计算机系统基础',
             items: [{
-                text: 'C Basis-01 Hello,world!',
-                link: '/md/C语言/C Basis-01 Hello,world!.md'
+                text: 'CS-EASY-01 Hello world!',
+                link: '/md/计算机系统/CS-EASY-01 Hello world!.md'
               },
               {
-                text: 'C Basis-02 来邂逅语句吧',
-                link: '/md/C语言/C Basis-02 来邂逅语句吧.md'
+                text: 'CS-EASY-02 基础数据结构',
+                link: '/md/计算机系统/CS-EASY-02 基础数据结构.md'
               },
               {
-                text: 'C Basis-03 神秘密文',
-                link: '/md/C语言/C Basis-03 神秘密文.md'
-              },
-              {
-                text: 'C Basis-04 赢不了的游戏',
-                link: '/md/C语言/C Basis-04 赢不了的游戏.md'
+                text: 'CS-EASY-03 内存模型',
+                link: '/md/计算机系统/CS-EASY-03 内存模型.md'
               },
             ]
           },
           {
-            text: 'C项目',
-            items: [{
-                text: 'C Project- 00 Manual',
-                link: '/md/C语言/C Project- 00 Manual.md'
+            text: '计算机系统进阶',
+            items: [
+              {
+                text: 'CS-MEDIUM-01 大数运算',
+                link: '/md/计算机系统/CS-MEDIUM-01 大数运算.md'
               },
               {
-                text: 'C Project-01  Stack',
-                link: '/md/C语言/C Project-01  Stack.md'
-              },
-              {
-                text: 'C project-02 Management and Testing',
-                link: '/md/C语言/C project-02 Management and Testing.md'
-              },
-              {
-                text: 'C project-03 The Last',
-                link: '/md/C语言/C project-03 The Last.md'
+                text: 'CS-MEDIUM-02 定点数精确运算',
+                link: '/md/计算机系统/CS-MEDIUM-02 定点数精确运算.md'
               },
             ]
-          },
-          {
-            text: 'C进阶',
-            items: [{
-              text: 'C 进阶-动态内存分配器',
-              link: '/md/C语言/C 进阶-动态内存分配器.md'
-            },
-          ]
           },
         ]
       }],
@@ -472,43 +424,35 @@ export default defineConfig({
           {
             text: 'JAVA',
             items: [{
-                text: 'Java-01：基础',
-                link: '/md/后端/Java01.md'
+                text: 'Java01-环境搭建',
+                link: '/md/后端/Java01-环境搭建.md'
               },
               {
-                text: 'Java-02：语言特性',
-                link: '/md/后端/Java02.md'
+                text: 'Java02-程序基本结构',
+                link: '/md/后端/Java02-程序基本结构.md'
               },
               {
-                text: 'Java-03：异常，网络',
-                link: '/md/后端/Java03.md'
+                text: 'Java03-数据类型与运算-数据类型与运算',
+                link: '/md/后端/Java03-数据类型与运算.md'
+              },
+              {
+                text: 'Java04-流程控制',
+                link: '/md/后端/Java04-流程控制.md'
+              },
+              {
+                text: 'Java05-面向对象',
+                link: '/md/后端/Java05-面向对象.md'
+              },
+              {
+                text: 'Java06-面向对象进阶',
+                link: '/md/后端/Java06-面向对象进阶.md'
+              },
+              {
+                text: 'Java07-异常处理',
+                link: '/md/后端/Java07-异常处理.md'
               },
             ]
           },
-          {
-            text: 'GO',
-            items: [{
-                text: 'GO-01：level0',
-                link: '/md/后端/Go语言基础-level0.md'
-              },
-              {
-                text: 'GO-02：level1',
-                link: '/md/后端/Go语言基础-level1.md'
-              },
-            ]
-          },
-          {
-            text: '后端综合',
-            items: [{
-                text: '综合项目-数据库',
-                link: '/md/后端/后端综合数据库出题.md'
-              },
-              {
-                text: '综合项目-项目实践',
-                link: '/md/后端/后端综合项目出题.md'
-              },
-            ]
-          }
         ]
       }],
 

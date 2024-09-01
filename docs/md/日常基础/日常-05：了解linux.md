@@ -8,7 +8,7 @@
 
 ## 什么是Linux
 
-`linux`是一款开源的类`unix`操作系统,`lunux`英文解释为`linux is not unix`,`linux`是由`Linus`受`unix`和`minix`思想启发用C语言写的，`linus`只是写了`linux`的内核，后来，无数人对`linux`进行了维护和扩展，`githug`上显示的贡献者![](https://pic.imgdb.cn/item/64cddc6b1ddac507ccc8d0d6.png)
+`linux`是一款开源的类`unix`操作系统,`lunux`英文解释为`linux is not unix`,`linux`是由`Linus`受`unix`和`minix`思想启发用计算机系统写的，`linus`只是写了`linux`的内核，后来，无数人对`linux`进行了维护和扩展，`githug`上显示的贡献者![](https://pic.imgdb.cn/item/64cddc6b1ddac507ccc8d0d6.png)
 
 
 
@@ -48,7 +48,7 @@
 >
 > **简单来说shell就是一个将用户或应用程序输入的命令翻译成Linux内核理解的语言交给linux内核处理，然后将Linux内核的执行结果返还给应用程序或用户的程序。**
 
-shell是一种用C语言写的程序，是用户使用Linux的桥梁，shell既是一种命令语言（也就是我们平时使用的Linux命令），也是一种程序设计语言（shell脚本）。
+shell是一种用计算机系统写的程序，是用户使用Linux的桥梁，shell既是一种命令语言（也就是我们平时使用的Linux命令），也是一种程序设计语言（shell脚本）。
 
 shell 指 “提供给使用者使用界面” 的软件，即 Command Interpreter - 命令解析器。shell 接收用户或者其他应用程序的命令，然后将这些命令转化成内核能够理解的语言并传递给内核，内核执行命令完成后，再将执行结果返回给用户或者应用程序。
 
@@ -57,7 +57,7 @@ shell 指 “提供给使用者使用界面” 的软件，即 Command Interpret
 shell不止一种，历史长河中有许多种shell
 
 * Bourne shell(简称sh):第一个shell
-* C shell（简称csh):由于语法和C语言类似得名
+* C shell（简称csh):由于语法和计算机系统类似得名
 * Bourne Again Shell（bash):对sh的增强版
 
 Linux默认使用的是bash,只要我们学会使用bash，就能快乐地使用任何一个Linux发行版:blush:
@@ -90,7 +90,7 @@ shell会翻译命令，然后交给Linux内核，然后再把内核的执行结�
 
 ### 如何在终端写程序
 
-在Linux中，也可以像在Windows中一样下载各种IDE写程序，但是在终端中如何写程序呢，下面以c语言为例，简单介绍一下
+在Linux中，也可以像在Windows中一样下载各种IDE写程序，但是在终端中如何写程序呢，下面以计算机系统为例，简单介绍一下
 
 **step1  创建.c文件**
 
