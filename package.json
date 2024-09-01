@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.0.0-rc.23"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 8080"
+  },
+  "dependencies": {
+    "vue-simple-uploader": "^0.7.6",
+    "vuepress-plugin-anchor-right": "^0.0.1-beta.18"
+  },
+  "type": "module",
+  "deploy:win": "powershell bin/autoDeploy.bat"
+}

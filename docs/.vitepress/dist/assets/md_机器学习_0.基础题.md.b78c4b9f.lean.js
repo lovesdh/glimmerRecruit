@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,Q as n}from"./chunks/framework.e90f0c97.js";const g=JSON.parse('{"title":"入门题","description":"","frontmatter":{},"headers":[],"relativePath":"md/机器学习/0.基础题.md","filePath":"md/机器学习/0.基础题.md"}'),l={name:"md/机器学习/0.基础题.md"},p=n("",60),o=[p];function t(i,r,c,d,h,u){return a(),e("div",null,o)}const m=s(l,[["render",t]]);export{g as __pageData,m as default};
