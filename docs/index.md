@@ -23,9 +23,9 @@ features:
     link: '/md/日常基础/'
     details: '计算机学科与做招新题不得不知道の常识与有用的通识内容，建议阅读'
   - icon: 🖱️
-    title: C语言
-    link: '/md/C语言/'
-    details: '非常接近底层的通用语言，拥有强大且通用的能力，也是学院的必修课，推荐0基础同学选择'
+    title: 计算机系统
+    link: '/md/CS/'
+    details: '前期学习C语言，非常接近底层的通用语言，拥有强大且通用的能力，后期还会深入学习计算机系统，是一个由浅入深的方向'
   - icon: 📱
     title: 前端
     link: '/md/前端/'
@@ -58,24 +58,24 @@ features:
     /* 图标背景 */
     --vp-home-hero-image-background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
     --vp-home-hero-image-filter: blur(150px);
-
+    
     --vp-button-brand-border: #aeb3ef;
     --vp-button-brand-text: #ffffff;
     --vp-button-brand-bg: #001df8;
-
+    
     --vp-button-brand-hover-border: #b8f8ff;
     --vp-button-brand-hover-text: #ffffff;
     --vp-button-brand-hover-bg: #4c4cf1;
-
+    
     --vp-button-brand-active-border: #a0ffe6;
-
+    
     --vp-c-brand: #808080;
-    
-
-     
 
 
+​     
 
-    
+
+
+
 }
 </style>
