@@ -296,7 +296,7 @@ export default defineConfig({
             link: '/md/机器学习/0.基础题.md'
           },
           {
-            text: '机器学习方向-01：1.基础知识',
+            text: '机器学习方向-01：基础知识',
             link: '/md/机器学习/1.基础知识.md'
           },
           {
